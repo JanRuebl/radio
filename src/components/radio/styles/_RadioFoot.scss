@@ -1,0 +1,23 @@
+.foot {
+  background-color: $footBgColor;
+  height: 80px;
+  border-top: 1px solid $fontColor;
+}
+
+.foot_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    margin: 10px;
+  }
+}
+
+.footHead {
+  color: $headBgColor;
+  text-transform: uppercase;
+}
+
+.footInfo {
+  color: $fontColor;
+}

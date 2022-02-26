@@ -1,0 +1,33 @@
+.hide {
+  display: none;
+}
+.acc div:first-of-type {
+  border-top: none;
+}
+
+.acc_item {
+  padding-top: 10px;
+  color: $fontColor;
+  border-top: 1px solid $fontColor;
+}
+
+.acc_item_pictureGroup {
+  @include space_evenly;
+
+  * {
+    @include rounded;
+
+    margin: auto 0;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.acc_item_textGroup {
+  cursor: pointer;
+  @include space_between;
+  p:nth-child(2) {
+    text-align: right;
+  }
+}

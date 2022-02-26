@@ -1,0 +1,19 @@
+.radio {
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 25px;
+  font-family: sans-serif;
+}
+
+.main {
+  background-color: $mainBgColor;
+  height: 340px;
+  overflow: auto;
+  padding: 0px 30px;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,14 @@
+.head {
+  background-color: $headBgColor;
+  height: 80px;
+  color: $headlineColor;
+  text-transform: uppercase;
+  * {
+    margin: auto 10px;
+  }
+  @include space_between;
+}
+
+.powerBtn {
+  cursor: pointer;
+}

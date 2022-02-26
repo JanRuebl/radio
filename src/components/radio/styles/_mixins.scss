@@ -1,0 +1,16 @@
+@mixin rounded {
+  border-radius: 50%;
+  border: 2px solid $fontColor;
+}
+
+@mixin space_between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin space_evenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
